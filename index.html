@@ -1,1 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - entre ou cadastre-se</title>
+    
+    <style type="text/css">
+        body{
+            font-family: arial, helvetica, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            
+            margin: 0;
+        }
 
+        .conteiner{ 
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 75vw;
+
+        }
+
+        .conteiner-face{
+           width: 600px;
+           
+        }
+
+        .conteiner-login{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            height: 350px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            margin: 40px ;
+            padding: 20px 0 28px;
+            padding-top: 20px;
+            padding-bottom: 28px;
+            width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+        }
+
+
+       
+        .conteiner-login-form {
+
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1em;
+        border-radius: 8px;
+        
+            
+     
+        
+
+
+        }
+
+        h1 {
+
+        color:#1877f2 ;
+        font-size: 4rem;
+        margin-left: 90px;
+        margin-top: -40px;
+        font-family: inherit;
+
+        }
+
+        h2 {
+
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 25px;
+            margin-top:-30px;
+            margin-left: 90px;
+            
+
+
+        }
+
+    
+
+        .buttom-entrar{
+
+            background-color: #1877f2;
+            color:white;
+            border: none;
+            border-radius: 6px;
+            font-size: 24px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 350px;
+           
+
+        }
+
+        .buttom-entrar:hover {
+
+
+           background-color:#2d88ff ;
+
+
+        }
+        .buttom-criar {
+
+
+            background-color: rgb(38, 182, 38);
+            color:white;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 200px;
+            
+        }
+
+        .buttom-criar:hover {
+
+
+        background-color: rgb(51, 221, 51) ;
+
+
+}
+
+        
+        .inputs {
+
+            width: 330px;
+            height: 55px;
+            background-color: transparent;
+            padding: 0 16px;
+            border-radius: 9px;
+            text-align: left;
+            font-size: 20px;
+            margin: 5px;
+            
+       
+           
+            
+
+        }
+
+
+        #buttom-esquecer {
+
+
+       
+        text-decoration: blue;
+        border-bottom: 1px solid #7a7a7a;
+        width: 85%;
+        padding: 10px;
+                
+
+        }
+
+
+        footer{
+
+         
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f0f2f5; /* Cor de fundo semelhante à do Facebook */
+            padding: 10px 0; /* Ajuste do preenchimento do footer */
+            text-align: center;
+            font-size: 14px; /* Ajuste do tamanho da fonte */
+            color: #606770; 
+            background-color: white;
+            font-size: 15px;
+            
+        }
+
+
+
+        #jp,#mth{
+
+           border: #f0f2f5;
+           font-size: 18px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+    <div class="conteiner-face">
+        <h1> Facebook</h1>
+        <h2>O Facebook ajuda você a se conectar e 
+            compartilhar com as pessoas que fazem parte da sua
+            vida.</h2>
+    </div>
+    <div class="conteiner-login">
+        <form>
+            <input type="text" class="inputs" placeholder="E-mail ou telefone"></input>
+            <input type="password" class="inputs" placeholder="senha"></input>
+            </form>
+            <button class="buttom-entrar"><b>Entrar</b></button>
+            <a id="buttom-esquecer" href="#">Esqueceu a senha? </a>
+            <button class="buttom-criar"><b>Criar nova conta</b></button>
+        </form>
+        <br>
+<p><strong>Crie uma Página</strong> para uma 
+celebridade, uma marca ou uma empresa.</p>
+    </div>
+    </div>
+    
+
+
+
+    <footer>
+
+        <p>
+            Esse foi um projeto desenvolvido por dois alunos cursando tecnico em informática
+        </p>
+        <br>
+
+       
+        <a id="mth" href="https://www.instagram.com/mth_fl/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">@Mth_fl</a>
+        <a id="jp" href="https://www.instagram.com/jottape_85/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">@jottape_85</a>
+        
+
+    </footer>
+</body>
+</html>
