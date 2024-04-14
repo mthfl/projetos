@@ -1,0 +1,43 @@
+.gallery-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gallery {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+    max-height:400px; 
+    object-fit: contain; 
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    transition: background-colo
+}
+
+.arrow:hover {
+    background-color: #555;
+    transform: scale(1.1); 
+}
