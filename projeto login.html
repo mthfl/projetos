@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login</title>
+</head>
+<body>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+
+height: 100vh;
+background: linear-gradient(black, rgba(225, 34, 221, 0.804));
+
+font-family: "Roboto Slab", serif;
+}
+
+
+.form {
+    background-color: rgba(225, 34, 221, 0.804);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 60px purple;
+    border: 3px solid aliceblue;
+}
+
+    #email,
+    #senha,
+    #button {
+
+        margin-left: 50px;
+        top: 200px;
+    
+        width: 300px;
+        height: 35px;
+        position: relative;
+        border-radius:5px;
+        border: none;
+        text-align: center;
+    }
+
+
+    ::placeholder {
+
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    }
+
+    #email {
+        top: 40px;
+        position: relative;
+    }
+
+    #senha {
+        top: 80px;
+        position: relative;
+    }
+
+    #button {
+
+        text-decoration: none;
+        width: auto;
+        font-size: 20px;
+        margin-left: 39%;
+        color: aliceblue;
+        top:130px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        border-bottom: 3px solid aliceblue;
+        border-radius: 0;
+    }
+
+    #button:hover {
+
+    
+        
+        transition: 10ms ease;
+        
+        transition: all 6ms ease;
+        border-bottom: 3px solid aliceblue;
+        border-top: 3px solid aliceblue;
+        
+    }
+
+
+    p {
+
+        font-size: 40px;
+        margin-left: 37%;
+       font-weight: 500 ;
+        color: aliceblue;
+        top: 20px;
+        position: relative;
+    }
+
+    #recepçao {
+
+        color: aliceblue;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 5px 5px 10px rgba(225, 34, 221, 0.804);
+        top: 50px;
+        position: relative;
+    }
+
+
+
+</style>
+
+
+
+
+<div id="recepçao"></div>
+
+<main class="form">
+    <p>Login</p>
+    <input id="email" type="email" min="10" max="15" placeholder="E-mail">
+    <input id="senha" type="password"min="10" max="15"  placeholder="Senha"> <br>
+    <a id="button" href="#">Registrar</a>
+</main>
+
+<script>
+ 
+    var bemVindo = document.getElementById('recepçao');
+  
+ 
+    var nome = window.prompt('Qual é o seu nome?');
+  
+    bemVindo.textContent = 'Seja bem-vindo, ' + nome + '!';
+   
+  </script>
+</body>
+</html>
