@@ -10,7 +10,7 @@ function resgatar() {
 
    
     const comprarLink = document.getElementById('comprar');
-    comprarLink.href = "../projeto ferias/planos.html";
+    comprarLink.href = "../projeto biblioteca/planos.html";
 }
 
 
