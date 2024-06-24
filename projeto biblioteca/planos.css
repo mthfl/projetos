@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+  --background_color:#efeded;
+  --black_color:rgb(13, 12, 12);
+  --primary_color:#3c3c3c;
+  --secundary_color:#646464;
+  --reserv_color:#a0a0a0;
+  --font_primary:  "Montserrat", sans-serif;;
+  --font_secundary: "Almarai", sans-serif;
+  --font_reserv: "Playfair Display", serif;
+  --font_italic: "Brygada 1918", serif;
+}
+body{
+    background-color: var(--background_color);
+  height: 100vh;
+}
+
+.tittle{
+  font-family: var(--font_secundary);
+
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+.tittle a{
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 20px;
+ transition: all ease-out 100ms;
+ font-style: inherit;
+ color: var(--secundary_color);
+text-decoration: none;
+font-size: 25px;
+
+}
+
+.tittle a:hover{
+  
+border-bottom: 3px solid var(--primary_color);
+
+
+}
+
+
+ul{
+  margin-left: 120px;
+}
+
+#one{
+  border-bottom: 3px solid var(--primary_color);
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px black;
+ height: 350px;
+    display: inline-block;
+    margin-right: 100px;
+    top: 130px;
+    position: relative;
+    margin-left: 90px;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: var(--primary_color);
+    text-align: center;
+   margin-left: -10px;
+   top:-30px;
+   font-weight: 500;
+   text-align: center;
+   font-family: var(--font_secundary);
+   border-bottom: 3px solid var(--primary_color);
+   width: 280px;
+   position: relative;
+  }
+  
+  .card-text {
+  
+   font-family: var(--font_italic);
+    transition: opacity 0.3s ease; 
+    text-align: center;
+    color: var(--secundary_color);
+   font-weight: 500;
+   font-style: italic;
+   font-size: 19px;
+   top: -30px;
+   position: relative;
+   
+    
+  }
+  
+
+  .preço {
+    font-family: var(--font_primary);
+    color: black;
+    font-size: 47px;
+    text-align: center;
+    top: -40px;
+    position: relative;
+  }
+
+  #button{
+    display: block;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: var(--font_secundary);
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--background_color);
+    background-color:  var(--primary_color);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    top: -60px;
+   text-align: center;
+   margin-left: 15px;
+    
+   
+  }
+  
+  #button span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  #button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 90%;
+    background: var(--background_color);
+    border: 2px solid var(--primary_color);
+    transition: all .35s;
+  }
+  
+  #button:hover{
+    color: var(--primary_color);
+  }
+  
+  #button:hover:after{
+    width: 100%;
+  }
+
+
+
+  .preço-cortado {
+    font-family: var(--font_primary);
+    color: var(--primary_color);
+    font-size: 20px;
+    text-align: center;
+    top: -75px;
+    position: relative;
+  
+  }
+
+ #icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: -10px;
+  }
+
+  .vantagens{
+    display: grid;
+    margin-left: 15px;
+   
+  }
+
+  p{
+    position: relative;
+    top: -50px;
+    margin-left: 40px;
+    width: 500px;
+    font-family: var(--font_secundary);
+    font-weight: 500;
+  }
